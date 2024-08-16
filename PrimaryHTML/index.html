@@ -22,10 +22,84 @@
 </head>
 
 <body id="body">
+    <nav>
+        <div class="conteinerimgnav">
+            <img id="buttonnav" src="#" alt="nav">
+        </div>
+        <div class="typenav" id="typenav">
+            <a href="#typetext">
+                type="text"
+                </a>
+            <a href="#typeemail">
+                type="email"
+                </a>
+            <a href="#typepassword">
+                type="password"
+                </a>
+            <a href="#typecheckbox">
+                type="checkbox"
+                </a>
+            <a href="#typedate">
+                type="date"
+                </a>
+            <a href="#typecolor">
+                type="color"
+                </a>
+            <a href="#typebutton">
+                type="button"
+                </a>
+            <a href="#typerange">
+                type="range"
+                </a>
+                <!--
+                => Me diga... Oque é a vida?
+                -->
+            <a href="#typeradio">
+                type="radio"
+                </a>
+            <a href="#typeurl">
+                type="url"
+                </a>
+            <a href="#typereset">
+                type="reset"
+                </a>
+            <a href="#typedatetime-local">
+                type="datetime-local"
+                </a>
+            <a href="#typemonth">
+                type="month"
+                </a>
+            <a href="#typeweek">
+                type="week"
+                </a>
+            <a href="#typetel">
+                type="tel"
+                </a>
+            <a href="#typefile">
+                type="file"
+                </a>
+            <a href="#typehidden">
+                type="hidden"
+                </a>
+            <a href="#typeimage">
+                type="image"
+                </a>
+            <a href="#typesearch">
+                type="search"
+                </a>
+            <a href="#typenumber">
+                  type="number"
+                </a>
+            </ul>
+        </div>
+    </nav>
     <main>
         <section>
             <div class="conteiner">
                 <h2>&lt;input type="text"&gt;</h2>
+                <p>É um atributo usado para criar um campo onde o usuário pode 
+                    digitar texto. Isso é comum em formulários, onde precisamos 
+                    de informações como nome ou endereço por exemplo.</p>
                 <input type="text">
                 <button id="openPoptext">Ver CSS</button>
                 <div class="conteinercss" id="conteinertextcss">
@@ -36,6 +110,11 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="email"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada onde o 
+                    usuário deve digitar um endereço de email. Esse tipo de 
+                    campo oferece uma validação básica, garantindo que o texto 
+                    inserido tenha o formato de um email 
+                    (como usuario@exemplo.com).</p>
                 <input type="email">
                 <button id="openPopemail">Ver CSS</button>
                 <div class="conteinercss" id="conteineremailcss">
@@ -46,6 +125,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="password"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada onde o 
+                    usuário pode digitar uma senha. O texto digitado é 
+                    mascarado, aparecendo como pontos ou asteriscos, para manter 
+                    a privacidade da informação.</p>
                 <input type="password">
                 <button id="openPoppassword">Ver CSS</button>
                 <div class="conteinercss" id="conteinerpasswordcss">
@@ -55,6 +138,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="checkbox"&gt;</h2>
+                <p>É um atributo usado para criar uma caixa de seleção, 
+                    permitindo que o usuário escolha uma ou mais opções de uma 
+                    lista. O usuário pode marcar ou desmarcar a caixa conforme 
+                    sua escolha.</p>
                 <input type="checkbox">
                 <button id="openPopcheckbox">Ver CSS</button>
                 <div class="conteinercss" id="conteinercheckboxcss">
@@ -64,6 +151,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="date"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar uma data através de um 
+                    calendário interativo. O formato da data é padronizado, 
+                    garantindo uma entrada correta.</p>
                 <input type="date">
                 <button id="openPopdate">Ver CSS</button>
                 <div class="conteinercss" id="conteinerdatecss">
@@ -73,6 +164,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="color"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar uma cor a partir de um 
+                    seletor de cores. O valor inserido é um código de cor em 
+                    hexadecimal.</p>
                 <input type="color">
                 <button id="openPopcolor">Ver CSS</button>
                 <div class="conteinercss" id="conteinercolorcss">
@@ -82,6 +177,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="button"&gt;</h2>
+                <p>É um atributo usado para criar um botão que pode ser clicado, 
+                    mas que não envia dados do formulário por padrão. Pode ser 
+                    utilizado para executar scripts ou ações específicas quando 
+                    o botão é clicado.</p>
                 <input type="button">
                 <button id="openPopbutton">Ver CSS</button>
                 <div class="conteinercss" id="conteinerbuttoncss">
@@ -91,6 +190,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="range"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar um valor dentro de um 
+                    intervalo usando um controle deslizante. O valor é 
+                    representado por uma barra que o usuário pode arrastar.</p>
                 <input type="range">
                 <button id="openPoprange">Ver CSS</button>
                 <div class="conteinercss" id="conteinerrangecss">
@@ -100,6 +203,13 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="radio"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar uma única opção de um grupo 
+                    de opções. Os botões de rádio são exibidos como pequenos 
+                    círculos que podem ser marcados ou desmarcados, mas apenas 
+                    uma opção pode ser selecionada por vez dentro de um mesmo 
+                    grupo.</p>
+                <input type="radio">
                 <input type="radio">
                 <button id="openPopradio">Ver CSS</button>
                 <div class="conteinercss" id="conteinerradiocss">
@@ -109,6 +219,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="url"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário digitar um URL. O campo valida 
+                    automaticamente se o texto inserido tem o formato de um 
+                    endereço de site, como https://www.exemplo.com.</p>
                 <input type="url">
                 <button id="openPopurl">Ver CSS</button>
                 <div class="conteinercss" id="conteinerurlcss">
@@ -118,6 +232,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="reset"&gt;</h2>
+                <p>É um atributo usado para criar um botão que, quando clicado, 
+                    redefine todos os campos de um formulário para seus valores 
+                    padrão ou iniciais. É útil para limpar rapidamente os dados 
+                    inseridos pelo usuário.</p>
                 <input type="reset">
                 <button id="openPopreset">Ver CSS</button>
                 <div class="conteinercss" id="conteinerresetcss">
@@ -127,6 +245,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="datetime-local"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar uma data e uma hora em um 
+                    único controle. O valor inserido inclui a data e a hora 
+                    no formato YYYY-MM-DDTHH:MM.</p>
                 <input type="datetime-local">
                 <button id="openPopdatetime-local">Ver CSS</button>
                 <div class="conteinercss" id="conteinerdatetime-localcss">
@@ -136,6 +258,9 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="month"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar um mês e um ano, sem 
+                    especificar o dia. O valor inserido é no formato YYYY-MM.</p>
                 <input type="month">
                 <button id="openPopmonth">Ver CSS</button>
                 <div class="conteinercss" id="conteinermonthcss">
@@ -145,6 +270,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="week"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar uma semana e um ano. O valor 
+                    inserido é no formato YYYY-Www, onde YYYY representa o ano 
+                    e Www representa a semana do ano.</p>
                 <input type="week">
                 <button id="openPopweek">Ver CSS</button>
                 <div class="conteinercss" id="conteinerweekcss">
@@ -154,6 +283,11 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="tel"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário inserir um número de telefone. Embora o 
+                    campo não valide automaticamente o formato do telefone, ele 
+                    pode ser usado para facilitar a entrada de números de 
+                    telefone em formulários.</p>
                 <input type="tel">
                 <button id="openPoptel">Ver CSS</button>
                 <div class="conteinercss" id="conteinertelcss">
@@ -163,6 +297,10 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="file"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário selecionar e enviar arquivos do seu 
+                    dispositivo. O usuário pode escolher um ou mais arquivos 
+                    para upload, dependendo das configurações.</p>
                 <input type="file">
                 <button id="openPopfile">Ver CSS</button>
                 <div class="conteinercss" id="conteinerfilecss">
@@ -172,12 +310,23 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="hidden"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que não é 
+                    exibido ao usuário, mas pode armazenar informações que são 
+                    enviadas junto com o formulário. É útil para passar dados 
+                    que não precisam ser alterados pelo usuário, mas são 
+                    necessários para o processamento do formulário.</p>
                 <input type="hidden">
                 <button id="openPophidden">Sem CSS</button>
             </div>
 
             <div class="conteiner">
                 <h2>&lt;input type="image"&gt;</h2>
+                <p>É um atributo usado para criar um botão de envio de 
+                    formulário que é exibido como uma imagem. Quando o 
+                    usuário clica na imagem, o formulário é enviado. O atributo 
+                    type="image" permite que a imagem funcione como um botão de 
+                    envio, e os valores das coordenadas do clique podem ser 
+                    enviados junto com o formulário.</p>
                 <input type="image">
                 <button id="openPopimage">Ver CSS</button>
                 <div class="conteinercss" id="conteinerimagecss">
@@ -187,6 +336,11 @@
 
             <div class="conteiner">
                 <h2>&lt;input type="search"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário digitar termos de pesquisa. Esse campo 
+                    é semelhante ao type="text", mas é otimizado para inserção 
+                    de termos de busca, podendo exibir funcionalidades 
+                    específicas, como botões de limpar texto.</p>
                 <input type="search">
                 <button id="openPopsearch">Ver CSS</button>
                 <div class="conteinercss" id="conteinersearchcss">
@@ -195,7 +349,11 @@
             </div>
 
             <div class="conteiner">
-                <h2>&lt;input type="number"&gt;</h2>
+                <h2 id="typenumber">&lt;input type="number"&gt;</h2>
+                <p>É um atributo usado para criar um campo de entrada que 
+                    permite ao usuário digitar apenas números. O campo pode 
+                    incluir setas para aumentar ou diminuir o valor, e você 
+                    pode definir valores mínimos, máximos e incrementos.</p>
                 <input type="number">
                 <button id="openPopnumber">Ver CSS</button>
                 <div class="conteinercss" id="conteinernumbercss">

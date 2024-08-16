@@ -1,4 +1,4 @@
-
+// Código 100% livre de lógica.
 const bodyPage = document.getElementById('body'); // body para o overflow
 //
 const openButtonText = document.getElementById('openPoptext'); // Botão
@@ -6,11 +6,16 @@ const openButtonText = document.getElementById('openPoptext'); // Botão
         const closePopText = document.getElementById('closetext'); // botão de fechar
 
     openButtonText.onclick = function() {
-        popuptext.style.display = 'flex';
+        popupText.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePoptext.onclick = function() {
-        popuptext.style.display = 'none';
+    closePopText.onclick = function() {
+        popupText.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupText.onclick = function() {
+        popupText.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
 const openButtonEmail = document.getElementById('openPopemail');
@@ -22,6 +27,11 @@ const openButtonEmail = document.getElementById('openPopemail');
     }
     closePopEmail.onclick = function() {
         popupEmail.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupEmail.onclick = function() {
+        popupEmail.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
 const openButtonPassword = document.getElementById('openPoppassword');
@@ -33,193 +43,267 @@ const openButtonPassword = document.getElementById('openPoppassword');
     }
     closePopPassword.onclick = function() {
         popupPassword.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupPassword.onclick = function() {
+        popupPassword.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonCheckbox = document.getElementById('openPopcheckbox');
+    const popupCheckbox = document.getElementById('conteinercheckboxcss');
+        const closePopCheckbox = document.getElementById('closecheckbox');
+    openButtonCheckbox.onclick = function() {
+        popupCheckbox.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopCheckbox.onclick = function() {
+        popupCheckbox.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupCheckbox.onclick = function() {
+        popupCheckbox.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonDate = document.getElementById('openPopdate');
+    const popupDate = document.getElementById('conteinerdatecss');
+        const closePopDate = document.getElementById('closedate');
+    openButtonDate.onclick = function() {
+        popupDate.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopDate.onclick = function() {
+        popupDate.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupDate.onclick = function() {
+        popupDate.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonColor = document.getElementById('openPopcolor');
+    const popupColor = document.getElementById('conteinercolorcss');
+        const closePopColor = document.getElementById('closecolor');
+    openButtonColor.onclick = function() {
+        popupColor.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopColor.onclick = function() {
+        popupColor.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupColor.onclick = function() {
+        popupColor.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonButton = document.getElementById('openPopbutton');
+    const popupButton = document.getElementById('conteinerbuttoncss');
+        const closePopButton = document.getElementById('closebutton');
+    openButtonButton.onclick = function() {
+        popupButton.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopButton.onclick = function() {
+        popupButton.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupButton.onclick = function() {
+        popupButton.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonRange = document.getElementById('openPoprange');
+    const popupRange = document.getElementById('conteinerrangecss');
+        const closePopRange = document.getElementById('closerange');
+    openButtonRange.onclick = function() {
+        popupRange.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopRange.onclick = function() {
+        popupRange.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupRange.onclick = function() {
+        popupRange.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+// é foda ser estudante de programação :(
+const openButtonRadio = document.getElementById('openPopradio');
+    const popupRadio = document.getElementById('conteinerradiocss');
+        const closePopRadio = document.getElementById('closeradio');
+    openButtonRadio.onclick = function() {
+        popupRadio.style.display = 'flex';
+        body.style.overflowY = 'hidden';
+    }
+    closePopRadio.onclick = function() {
+        popupRadio.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupRadio.onclick = function() {
+        popupRadio.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonUrl = document.getElementById('openPopurl');
+    const popupUrl = document.getElementById('conteinerurlcss');
+        const closePopUrl = document.getElementById('closeurl');
+    openButtonUrl.onclick = function() {
+        popupUrl.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopUrl.onclick = function() {
+        popupUrl.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupUrl.onclick = function() {
+        popupUrl.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonReset = document.getElementById('openPopreset');
+    const popupReset = document.getElementById('conteinerresetcss');
+        const closePopReset = document.getElementById('closereset');
+    openButtonReset.onclick = function() {
+        popupReset.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopReset.onclick = function() {
+        popupReset.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupReset.onclick = function() {
+        popupReset.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonDatetimeLocal = document.getElementById('openPopdatetime-local');
+    const popupDatetimeLocal = document.getElementById('conteinerdatetime-localcss');
+        const closePopDatetimeLocal = document.getElementById('closedatetime-local');
+    openButtonDatetimeLocal.onclick = function() {
+        popupDatetimeLocal.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopDatetimeLocal.onclick = function() {
+        popupDatetimeLocal.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupDatetimeLocal.onclick = function() {
+        popupDatetimeLocal.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonMonth = document.getElementById('openPopmonth');
+    const popupMonth = document.getElementById('conteinermonthcss');
+        const closePopMonth = document.getElementById('closemonth');
+    openButtonMonth.onclick = function() {
+        popupMonth.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopMonth.onclick = function() {
+        popupMonth.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupMonth.onclick = function() {
+        popupMonth.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonWeek = document.getElementById('openPopweek');
+    const popupWeek = document.getElementById('conteinerweekcss');
+        const closePopWeek = document.getElementById('closeweek');
+    openButtonWeek.onclick = function() {
+        popupWeek.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopWeek.onclick = function() {
+        popupWeek.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupWeek.onclick = function() {
+        popupWeek.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonTel = document.getElementById('openPoptel');
+    const popupTel = document.getElementById('conteinertelcss');
+        const closePopTel = document.getElementById('closetel');
+    openButtonTel.onclick = function() {
+        popupTel.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopTel.onclick = function() {
+        popupTel.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupTel.onclick = function() {
+        popupTel.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonFile = document.getElementById('openPopfile');
+    const popupFile = document.getElementById('conteinerfilecss');
+        const closePopFile = document.getElementById('closefile');
+    openButtonFile.onclick = function() {
+        popupFile.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopFile.onclick = function() {
+        popupFile.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupFile.onclick = function() {
+        popupFile.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonImage = document.getElementById('openPopimage');
+    const popupImage = document.getElementById('conteinerimagecss');
+        const closePopImage = document.getElementById('closeimage');
+    openButtonImage.onclick = function() {
+        popupImage.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopImage.onclick = function() {
+        popupImage.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupImage.onclick = function() {
+        popupImage.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonSearch = document.getElementById('openPopsearch');
+    const popupSearch = document.getElementById('conteinersearchcss');
+        const closePopSearch = document.getElementById('closesearch');
+    openButtonSearch.onclick = function() {
+        popupSearchd.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopSearch.onclick = function() {
+        popupSearch.style.display = 'none';
+        body.style.overflowY = 'auto';
+    }
+    popupSearch.onclick = function() {
+        popupSearch.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
+const openButtonNumber = document.getElementById('openPopnumber');
+    const popupNumber = document.getElementById('conteinernumbercss');
+        const closePopNumber = document.getElementById('closenumber');
+    openButtonNumber.onclick = function() {
+        popupNumber.style.display = 'flex';
         body.style.overflowY = 'hidden';
     }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    closePopNumber.onclick = function() {
+        popupNumber.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
-//
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
-        body.style.overflowY = 'hidden';
-    }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
-    }
-//
-const openButtonPassword = document.getElementById('openPoppassword');
-    const popupPassword = document.getElementById('conteinerpasswordcss');
-        const closePopPassword = document.getElementById('closepassword');
-    openButtonPassword.onclick = function() {
-        popupPassword.style.display = 'flex';
-        body.style.overflowY = 'hidden';
-    }
-    closePopPassword.onclick = function() {
-        popupPassword.style.display = 'none';
+    popupNumber.onclick = function() {
+        popupNumber.style.display = 'none';
+        body.style.overflowY = 'auto';
     }
 //
 

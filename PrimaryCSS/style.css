@@ -13,9 +13,8 @@ body{
     box-shadow: 2px 5px 3px #13041ABF;
     cursor: pointer;
 }
-.conteinerimgnavclick {
-    border-radius: 50% 50% 0% 0%;
-}
+/* .conteinerimgnavclick {
+    border-radius: 50% 50% 0% 0%; */
 .conteinerimgnav .line1 {
     position: relative;
     width: 1.7rem;
